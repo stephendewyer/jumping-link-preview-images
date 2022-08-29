@@ -1,26 +1,91 @@
+/* important!!!  Some font families can cause paragraphs to overflow the element where height = scrollHeight if font-size is smaller than the ascent and descent of the font */
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: IBM-Plex-Sans;
+  color: #36261E;
+  background-color:#FFECEC;
+  font-size: 24px;
 }
 
-a {
-  color: inherit;
+@font-face {
+  font-family: "IBM-Plex-Sans";
+  src: url(/fonts/IBM-Plex-Sans/IBMPlexSans-Medium.ttf);
+}
+
+a:link {
+  color: #838B6A;
   text-decoration: none;
+}
+
+a:visited {
+  color: #79A5D8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D89679;
+  text-decoration: none;
+}
+
+a:active {
+  color: #838B6A;
+  text-decoration: none;
+}
+
+ul {
+  padding-top: 0;
+  margin-top: 0;
 }
 
 * {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+p {
+  padding: 0;
+  margin: 0;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+figcaption {
+  padding: 20px 20px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 30px 0;
+  position: relative;
+}
+
+.bouncyLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px 60px 0 60px;
+}
+
+@media screen and (max-width: 751px) {
+
   body {
-    color: white;
-    background: black;
+    font-size: 18px;
   }
+
+  figcaption {
+    padding: 10px 10px;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .bouncyLinks {
+    padding: 35px 10px 0 10px;
+  }
+
 }

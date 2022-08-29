@@ -1,0 +1,17 @@
+.credits {
+    font-size: 24px;
+    padding: 40px;
+    margin: 20px auto;
+    color: #838B6A;
+    text-align: center;
+}
+
+@media screen and (max-width: 751px) {
+
+    .credits {
+        width: 100%;  
+        padding: 20px;
+        font-size: 18px;
+    }
+
+}
