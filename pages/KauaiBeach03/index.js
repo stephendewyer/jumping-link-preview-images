@@ -17,7 +17,7 @@ const Beach03 = () => {
                 <title>jumping link preview images with animated arrow buttons - beach 3</title>
                 <meta name="description" content="animated arrow buttons with link destination preview images that jump" />
                 <meta property="og:image" content="/images/beaches/Kauai,_Hawaii_30_May_2017_03.JPG" />
-                <meta property="og:url" content="https://jumping-link-preview-image.vercel.app/" />
+                <meta property="og:url" content="https://jumping-link-preview-images.vercel.app/KauaiiBeach03" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className="container">

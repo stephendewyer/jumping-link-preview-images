@@ -17,7 +17,7 @@ export default function index() {
         <title>jumping link preview images with animated arrow buttons - index</title>
         <meta name="description" content="animated arrow buttons with link destination preview images that jump" />
         <meta property="og:image" content="/images/beaches/Kauai,_Hawaii_30_May_2017_01.JPG" />
-        <meta property="og:url" content="https://jumping-link-preview-image.vercel.app/" />
+        <meta property="og:url" content="https://jumping-link-preview-images.vercel.app/" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="container">
